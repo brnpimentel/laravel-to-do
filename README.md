@@ -16,6 +16,8 @@ php artisan migrate
 ```
 
 
+I just remove the `.env` line of the `.gitignore` to make things run without configuration. 
+
 # Use
 
 In this project, use the admin/admin credentials to enter as Administrator or peter/peter as normal user, or richard/richard as another normal user.
