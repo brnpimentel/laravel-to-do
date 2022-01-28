@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+input,
+select,
+textarea,
+button,
+div,
+a {
+
+    &:focus,
+    &:active {
+        outline: none !important;
+    }
+}
+
+
+input {
+    @apply w-full;
+    @apply border border-gray-200;
+    @apply rounded-lg py-2 px-3;
+    @apply text-sm;
+    @apply text-gray-700;
+
+}
+
+
+
+.btn {
+    @apply w-full;
+    @apply text-center;
+    @apply py-2 px-4;
+    @apply text-sm;
+    @apply text-white bg-cyan-500;
+    @apply rounded-lg;
+    @apply transition-colors duration-300;
+    @apply font-bold;
+    
+
+    &:hover {
+        @apply bg-cyan-600;
+        
+    }
+    
+}
+
